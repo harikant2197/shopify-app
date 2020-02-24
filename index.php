@@ -1,4 +1,5 @@
 <?php
+echo 'hello'; die;
 require_once("inc/functions.php");
 $requests = $_GET;
 $hmac = $_GET['hmac'];
